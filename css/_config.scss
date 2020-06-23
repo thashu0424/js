@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "papu";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+$fonts:"papu";
+$main-body:hsl(234, 14%, 74%);
+$lightest-blue:hsl(240, 78%, 98%);
+$grey-blue:hsl(233, 13%, 49%);
+$dark-blue:hsl(232, 13%, 33%);
+@mixin image() {
+    background-position: 100% 0%, 0% -525%;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url(../images/bg-top.svg), url(../images/bg-bottom.svg);
+}
